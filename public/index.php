@@ -28,5 +28,7 @@ $match = $router->match();
 
 // Création du dispatcher
 $dispatcher = new Dispatcher($match, 'MainController::notFound');
+
+// on demande à dispatcher de faire son travail
 $dispatcher->dispatch();
 

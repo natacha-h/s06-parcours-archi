@@ -9,6 +9,8 @@ class CoreController {
         $this->dbd = new DBData();
     }
     
+    //méthode show qui permettra d'afficher les pages.
+    //protected pour être accessibles par ses enfants uniquement
     protected function show($viewName, $viewVars=[]) {
         extract($viewVars);
         $baseUrl = dirname($_SERVER['SCRIPT_NAME']); 
