@@ -17,7 +17,7 @@
             <th scope="row">1</th>
             <td><img class="img-fluid max-height: 10%;"src="<?=$baseUrl . '/docs/images/' . $character['picture'] ?>"></td>
             <td><?= $character['name'] ?></td>
-            <td>@mdo</td>
+            <td><?= $character['t_name'] ?></td>
             <td><?= $character['description'] ?></td>
             </tr>
         <?php endforeach ?>

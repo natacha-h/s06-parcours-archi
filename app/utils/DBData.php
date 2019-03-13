@@ -44,26 +44,13 @@ class DBData {
 
      public function getCharacters() {
         // requête
-        $sql="SELECT * FROM `character` ORDER BY `name` ASC;";
+        $sql="SELECT `character`.*, `type`.name AS t_name FROM `character` JOIN `type`ON `type`.id = `character`.type_id ORDER BY `name` ASC;";
 
         $statement=$this->dbh->query($sql);
 
+        // on pioche dans 2 tables différentes donc tableau associatif
         return $statement->fetchAll(PDO::FETCH_ASSOC);
 
     }
 
-     /**
-     * Méthode permettant de retourner les données sur les types
-     * 
-     */
-
-    public function getTypes() {
-        // requête
-        $sql="SELECT * FROM `type`;";
-
-        $statement=$this->dbh->query($sql);
-
-        return $statement->fetchAll(PDO::FETCH_ASSOC);
-
-     }
 }
