@@ -10,6 +10,12 @@
 <body>
     
 <nav>
-<a href="<?=$baseUrl?>">Home</a>
-<a href="<?=$baseUrl?>/creators/">Les créateurs</a>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="<?=$baseUrl?>">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?=$baseUrl?>/creators/">Les créateurs</a>
+        </li>
+    </ul>
 </nav>
