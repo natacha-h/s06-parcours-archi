@@ -9,7 +9,6 @@ class MainController  extends CoreController {
     // méthode gérant l'affichade de la home
     public function home() {
         $character = $this->dbd->getCharacters();
-        dump($character);
         $this->show('home', ['characters' => $character]);
     }
 

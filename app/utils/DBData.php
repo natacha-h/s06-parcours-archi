@@ -1,7 +1,8 @@
 <?php
 
-require_once __DIR__.'/../models/CharacterModel.php';
-require_once __DIR__.'/../models/TypeModel.php';
+// require_once __DIR__.'/../models/CharacterModel.php';
+// require_once __DIR__.'/../models/TypeModel.php';
+// pas besoin des Models dans le cas présent mais ils seront peut-être nécessaires + atrd
 
 // Création de la class DBData qui permettra de retourner les infos de la BDD
 

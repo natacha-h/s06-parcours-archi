@@ -12,7 +12,6 @@ class CoreController {
     protected function show($viewName, $viewVars=[]) {
         extract($viewVars);
         $baseUrl = dirname($_SERVER['SCRIPT_NAME']); 
-        dump($baseUrl);
         require __DIR__.'/../views/header.tpl.php';
         require __DIR__.'/../views/' . $viewName .'.tpl.php';
         require __DIR__.'/../views/footer.tpl.php';

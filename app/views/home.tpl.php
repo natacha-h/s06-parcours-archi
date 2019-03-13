@@ -15,7 +15,7 @@
         <?php foreach ($characters as $character):?>
             <tr>
             <th scope="row">1</th>
-            <td><img class="img-fluid max-height: 10%;"src="<?=$baseUrl . '/docs/images/' . $character['picture'] ?>"></td>
+            <td><img class="img-fluid max-width: 8%;"src="<?=$baseUrl . '/docs/images/' . $character['picture'] ?>"></td>
             <td><?= $character['name'] ?></td>
             <td><?= $character['t_name'] ?></td>
             <td><?= $character['description'] ?></td>
