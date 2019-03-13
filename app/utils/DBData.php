@@ -19,7 +19,8 @@ class DBData {
         // Attention, "config.conf" ne doit pas être versionné,
         //   on versionnera plutôt un fichier d'exemple "config.dist.conf" ne contenant aucune valeur
         $configData = parse_ini_file(__DIR__.'/../config.conf');
-        
+        // ça manquait d'un config.dist.conf pour indiquer aux personnes qui clonent ton repo les infos qu'ils doivent fournir :-)
+
         try {
             $this->dbh = new PDO(
                 "mysql:host={$configData['DB_HOST']};dbname={$configData['DB_NAME']};charset=utf8",
