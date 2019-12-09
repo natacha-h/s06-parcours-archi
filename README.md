@@ -1,6 +1,6 @@
 # Mise en place d'une architecture MVC
 
-Parcours de fin de saison, on attendais de nous de mettre en place la structure vue au cours de cette saison : des contrôleurs, des routes, modèles et des vues.
+Parcours de fin de saison, on attendait de nous de mettre en place la structure vue au cours de cette saison : des contrôleurs, des routes, modèles et des vues.
 
 ## Sujet :
 
