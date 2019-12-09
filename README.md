@@ -11,12 +11,6 @@ On nous demande de mettre en place un petit site sur **Sonic**, contenant 2 page
 
 La modélisation de la base de données et la base de données étaient fournies.
 
-### Structure du projet
-
-La structure du projet étant similaire au projet de la saison, vous pouvez, si vous le souhaitez, en récupérer les sources pour les modifier pour correspondre au parcours.  
-:warning: Attention, tout le code présent dans vos sources doit être utile au projet. **Il ne doit rester aucun code supperflu**.
-
-
 ### Layout
 
 L'aspect visuel du site était imposé :
